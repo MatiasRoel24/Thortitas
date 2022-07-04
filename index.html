@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">   
+    <meta name="description" content="Pagina web blog"> <!-- SEO -->
+    <link rel="icon" href="./img/iconocoffe.png">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <title>blogCafe</title>
+
+    <!-- Preload -->
+    <link rel="preload" href="./css/normalize.css" as="style">
+    <link rel="stylesheet" href="./css/normalize.css">
+
+    <link rel="preload" href="./css/style.css" as="style">
+    <link rel="stylesheet" href="./css/style.css">
+
+
+</head>
+<body>
+
+    <header class="header">
+        
+        <div class="barra">
+            <a class="logo" href="index.html">
+                <h1 class="logo__nombre no-margin centrar-texto">Thor<span class="logo__bold">titas</span></h1>
+            </a>
+    
+            <nav class="navegacion">
+                <a class="navegacion__enlace" href="index.html">Inicio</a>
+                <a class="navegacion__enlace" href="./pages/nosotros/index.html">Nosotros</a>
+                <a class="navegacion__enlace" href="./pages/cursos/index.html">Cursos</a>
+                <a class="navegacion__enlace" href="./pages/contacto/index.html">Contacto</a>
+            </nav>
+        </div>
+        
+
+        <div class="header__texto">
+            <div class="header__contenedor-texto">
+                <h2 class="no-margin header__titulo">THORTITAS</h2>
+                <h5 class="no-margin header__subtitulo">Las mejores tortas!</h5>
+            </div>
+        </div>
+    </header>
+
+    <div class="contenedor contenido-principal">
+        <main class="blog">
+            <h3>Nuestro Blog</h3>
+
+            <article class="entrada">
+                <picture>
+                    <source srcset="img/blog1.webp" type="image/webp">
+                    <img src="./img/blog1.jpg" alt="imagen blog">
+                </picture>
+
+                <div class="entrada__contenido">
+                    <h4 class="no-margin">Tipos de granos de Cafe</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, 
+                        earum vitae voluptatem neque recusandae quos qui aspernatur quo aperiam 
+                        perferendis id eos dolore cupiditate consequuntur at et dicta, doloribus laborum?
+                    Rem, tempora obcaecati recusandae est culpa fugiat molestias nesciunt</p>
+                    <a href="./pages/entrada/index.html" class="boton boton--secundario">Leer Entrada</a>
+                </div>
+            </article>
+            
+            <article class="entrada">
+                <picture>
+                    <source srcset="img/blog2.webp" type="image/webp">
+                    <img src="./img/blog2.jpg" alt="imagen blog">
+                </picture>
+
+                <div class="entrada__contenido">
+                    <h4 class="no-margin">3 Deliciosas Recetas de Cafe</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, 
+                        earum vitae voluptatem neque recusandae quos qui aspernatur quo aperiam 
+                        perferendis id eos dolore cupiditate consequuntur at et dicta, doloribus laborum?
+                    Rem, tempora obcaecati recusandae est culpa fugiat molestias nesciunt</p>
+                    <a href="./pages/entrada/index.html" class="boton boton--secundario">Leer Entrada</a>
+                </div>
+            </article>
+
+            <article class="entrada">
+                <picture>
+                    <source srcset="img/blog3.webp" type="image/webp">
+                    <img src="./img/blog3.jpg" alt="imagen blog">
+                </picture>
+
+                <div class="entrada__contenido">
+                    <h4 class="no-margin">Beneficios del cafe</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, 
+                        earum vitae voluptatem neque recusandae quos qui aspernatur quo aperiam 
+                        perferendis id eos dolore cupiditate consequuntur at et dicta, doloribus laborum?
+                    Rem, tempora obcaecati recusandae est culpa fugiat molestias nesciunt</p>
+                    <a href="./pages/entrada/index.html" class="boton boton--secundario">Leer Entrada</a>
+                </div>
+            </article>
+        </main>
+        <aside class="sidebar">
+            <h3 class="sidebar__titulo">Nuestros cursos y talleres</h3>
+            <ul class="cursos no-padding">
+                <li class="widget-curso">
+                    <h4 class="no-margin">Tecnicas de Extraccion de Cafe</h4>
+                    <p class="widget-curso__label">
+                        Precio: <span class="widget-curso__info">Gratis</span>
+                    </p>
+                    <p class="widget-curso__label">
+                        Cupo: 
+                        <span class="widget-curso__info">20</span>
+                    </p>
+                    <a href="./pages/entrada/index.html" class="boton boton--secundario">Leer Entrada</a>
+                </li>
+
+                <li class="widget-curso">
+                    <h4 class="no-margin">4 Recetas de cafe para principiantes</h4>
+                    <p class="widget-curso__label">
+                        Precio: <span class="widget-curso__info">Gratis</span>
+                    </p>
+                    <p class="widget-curso__label">
+                        Cupo: 
+                        <span class="widget-curso__info">20</span>
+                    </p>
+                    <a href="./pages/entrada/index.html" class="boton boton--secundario">Mas informacion</a>
+                </li>
+
+                <li class="widget-curso">
+                    <h4 class="no-margin">4 Recetas de cafe para principiantes</h4>
+                    <p class="widget-curso__label">
+                        Precio: <span class="widget-curso__info">Gratis</span>
+                    </p>
+                    <p class="widget-curso__label">
+                        Cupo: 
+                        <span class="widget-curso__info">20</span>
+                    </p>
+                    <a href="./pages/entrada/index.html" class="boton boton--secundario">Mas informacion</a>
+                </li>
+            </ul>
+        </aside>
+    </div>
+
+    <footer class="footer">
+        <div class="contenedor">
+            <div class="barra">
+                <a class="logo" href="index.html">
+                    <h1 class="logo__nombre no-margin centrar-texto">Thor<span class="logo__bold">titas</span></h1>
+                </a>
+
+                <nav class="navegacion">
+                    <a class="navegacion__enlace" href="index.html">Inicio</a>
+                    <a class="navegacion__enlace" href="./pages/nosotros/index.html">Nosotros</a>
+                    <a class="navegacion__enlace" href="./pages/cursos/index.html">Cursos</a>
+                    <a class="navegacion__enlace" href="./pages/contacto/index.html">Contacto</a>
+                </nav>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+</html>
