@@ -23,15 +23,21 @@
     <header class="header">
         
         <div class="barra">
-            <a class="logo" href="index.html">
-                <h1 class="logo__nombre no-margin centrar-texto">Thor<span class="logo__bold">titas</span></h1>
-            </a>
-    
-            <nav class="navegacion">
-                <a class="navegacion__enlace" href="index.html">Inicio</a>
-                <a class="navegacion__enlace" href="./pages/nosotros/index.html">Nosotros</a>
-                <a class="navegacion__enlace" href="./pages/cursos/index.html">Cursos</a>
-                <a class="navegacion__enlace" href="./pages/contacto/index.html">Contacto</a>
+            <nav class="nav">   
+                <a class="logo" href="index.html">
+                    <h1 class="logo__nombre no-margin centrar-texto">Thor<span class="logo__bold">titas</span></h1>
+                </a>
+
+                <button class="nav-toggle">
+                    <i class="fas fa-bars"></i>
+                </button>
+
+                <ul class="nav__menu"><!-- NAV MENU -->
+                    <li class="nav__item"><a class="nav__link" href="index.html">Inicio</a></li>
+                    <li class="nav__item"><a class="nav__link" href="./pages/nosotros/index.html">Nosotros</a></li>
+                    <li class="nav__item"><a class="nav__link" href="./pages/cursos/index.html">Cursos</a></li>
+                    <li class="nav__item"><a class="nav__link" href="./pages/contacto/index.html">Contacto</a></li>
+                </ul>   
             </nav>
         </div>
         
@@ -140,20 +146,11 @@
 
     <footer class="footer">
         <div class="contenedor">
-            <div class="barra">
-                <a class="logo" href="index.html">
-                    <h1 class="logo__nombre no-margin centrar-texto">Thor<span class="logo__bold">titas</span></h1>
-                </a>
-
-                <nav class="navegacion">
-                    <a class="navegacion__enlace" href="index.html">Inicio</a>
-                    <a class="navegacion__enlace" href="./pages/nosotros/index.html">Nosotros</a>
-                    <a class="navegacion__enlace" href="./pages/cursos/index.html">Cursos</a>
-                    <a class="navegacion__enlace" href="./pages/contacto/index.html">Contacto</a>
-                </nav>
-            </div>
+            
         </div>
     </footer>
     
+    <script src="https://kit.fontawesome.com/7a3873578f.js" crossorigin="anonymous"></script>
+    <script src="./js/script.js"></script>
 </body>
 </html>
