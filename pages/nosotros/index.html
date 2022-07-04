@@ -8,21 +8,27 @@
     <link rel="stylesheet" href="../../css/normalize.css">
     <link rel="stylesheet" href="../../css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
-    <title>blogCafe</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />    <title>blogCafe</title>
 </head>
 <body>
 
     <header class="header">
         <div class="barra">
-            <a class="logo" href="index.html">
-                <h1 class="logo__nombre no-margin centrar-texto">Thor<span class="logo__bold">titas</span></h1>
-            </a>
-    
-            <nav class="navegacion">
-                <a class="navegacion__enlace" href="../../index.html">Inicio</a>
-                <a class="navegacion__enlace" href="../nosotros/index.html">Nosotros</a>
-                <a class="navegacion__enlace" href="../cursos/index.html">Cursos</a>
-                <a class="navegacion__enlace" href="../contacto/index.html">Contacto</a>
+            <nav class="nav">   
+                <a class="logo" href="../../index.html">
+                    <h1 class="logo__nombre no-margin centrar-texto">Thor<span class="logo__bold">titas</span></h1>
+                </a>
+
+                <button class="nav-toggle">
+                    <i class="fas fa-bars"></i>
+                </button>
+
+                <ul class="nav__menu"><!-- NAV MENU -->
+                    <li class="nav__item"><a class="nav__link" href="../../index.html">Inicio</a></li>
+                    <li class="nav__item"><a class="nav__link" href="../nosotros/index.html">Nosotros</a></li>
+                    <li class="nav__item"><a class="nav__link" href="../cursos/index.html">Cursos</a></li>
+                    <li class="nav__item"><a class="nav__link" href="../contacto/index.html">Contacto</a></li>
+                </ul>   
             </nav>
         </div>
 
@@ -58,22 +64,22 @@
     </main>
 
     <footer class="footer">
-        <div class="contenedor">
-            <div class="barra">
-                <a class="logo" href="../../index.html">
-                    <h1 class="logo__nombre no-margin centrar-texto">Thor<span class="logo__bold">titas</span></h1>
-                </a>
+        <div class="footer__contenedor">
 
-                <nav class="navegacion">
-                    <a class="navegacion__enlace" href="../../index.html">Inicio</a>
-                    <a class="navegacion__enlace" href="../nosotros/index.html">Nosotros</a>
-                    <a class="navegacion__enlace" href="../cursos/index.html">Cursos</a>
-                    <a class="navegacion__enlace" href="../contacto/index.html">Contacto</a>
-                </nav>
+            <a class="logo" href="../../index.html">
+                <h1 class="logo__nombre no-margin centrar-texto">Thor<span class="logo__bold">titas</span></h1>
+            </a>
+
+            <div class="contenedor-iconos">
+                <i class="fa-brands fa-instagram icono-footer"></i>
+                <i class="fa-brands fa-facebook icono-footer"></i>
+                <i class="fa-brands fa-youtube icono-footer"></i>
             </div>
+
         </div>
+            <h5 class="copy no-margin no-padding">©Copyright 2021 | Creada por MatiasRoel</h5>
     </footer>
-    
-   
+
+    <script src="../../js/script.js"></script>
 </body>
 </html>
