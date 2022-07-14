@@ -189,7 +189,6 @@ h4{
     .logo__nombre{
         font-weight: 400;
         font-size: 3.5rem;
-        margin-left: 2rem;
     }
     
     .logo__bold{
@@ -201,7 +200,7 @@ h4{
         display: flex;
         justify-content: space-evenly;
         align-items: center;
-        gap:20rem;
+        gap:18rem;
     }
     
     .nav__menu{
@@ -235,6 +234,7 @@ h4{
 
     .nav-toggle{
         display: block;
+        padding-left: 2rem;
     }
 
     .nav-menu__visible{
