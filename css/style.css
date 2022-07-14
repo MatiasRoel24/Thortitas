@@ -234,6 +234,7 @@ h4{
 
     .nav-toggle{
         display: block;
+        padding-left: 2rem;
     }
 
     .nav-menu__visible{
