@@ -189,7 +189,7 @@ h4{
     .logo__nombre{
         font-weight: 400;
         font-size: 3.5rem;
-
+        margin-left: 2rem;
     }
     
     .logo__bold{
