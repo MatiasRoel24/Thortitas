@@ -200,7 +200,7 @@ h4{
         display: flex;
         justify-content: space-evenly;
         align-items: center;
-        gap:18rem;
+        gap:17rem;
     }
     
     .nav__menu{
@@ -234,7 +234,6 @@ h4{
 
     .nav-toggle{
         display: block;
-        padding-left: 2rem;
     }
 
     .nav-menu__visible{
