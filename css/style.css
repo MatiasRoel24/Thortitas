@@ -183,6 +183,7 @@ h4{
     
     .logo{
         color: var(--blanco);
+        margin-left: 2rem;
     }
     
     .logo__nombre{
